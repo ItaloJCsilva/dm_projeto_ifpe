@@ -1,0 +1,98 @@
+# ==========================================================
+# Dependências (Node / Expo)
+# ==========================================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnpm-store/
+
+# ==========================================================
+# Expo / React Native (front/quiz)
+# ==========================================================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.orig.*
+*.tsbuildinfo
+
+# Projetos nativos gerados pelo `expo prebuild`
+front/quiz/ios/
+front/quiz/android/
+
+# Assinaturas de apps móveis
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# ==========================================================
+# Java / Spring Boot (backend)
+# ==========================================================
+backend/target/
+backend/build/
+backend/out/
+backend/bin/
+backend/HELP.md
+*.class
+*.war
+*.ear
+
+# Gradle (caso migre de Maven para Gradle)
+backend/.gradle/
+!backend/gradle/wrapper/gradle-wrapper.jar
+
+# Maven Wrapper (deve ser versionado)
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================================
+# Banco de dados / segredos
+# ==========================================================
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-local.*
+backend/src/main/resources/application-*.local.*
+backend/src/main/resources/application-secret.*
+*.dump
+*.sql.gz
+
+# ==========================================================
+# Logs
+# ==========================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================================
+# IDEs / editores
+# ==========================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+*.swp
+*~
+
+# ==========================================================
+# Sistema operacional
+# ==========================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+opencode.json
+GUIA.MD
